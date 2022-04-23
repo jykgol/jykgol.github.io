@@ -536,7 +536,7 @@ body {
     margin-top: 20px;
   }
   .page_4_grid{
-    grid-template-rows:4rem 2rem 11rem 3rem 3rem 4rem;
+    grid-template-rows:4rem 2rem 11rem 3rem 3rem 6rem;
   }  
 }
 @media (max-width:520px) {
@@ -544,21 +544,26 @@ body {
     grid-row: 3/6;;
     grid-column: 1/4;
   }
+  .page_4_grid_text{
+    text-align: justify;
+  }
 
 }
 @media (max-width:750px) {
   .page_4_subtitle{
     font-size: 16px;
     line-height: 175%;
-    text-align: center;
+    text-align:justify;
   }
 }
 @media (max-width:550px) {
   .page_4_subtitle{
     font-size: 14px;
     line-height: 150%;
-    text-align:justify;
   }
+  .page_4_grid{
+    grid-template-rows:4rem 2rem 11rem 3rem 3rem 7rem;
+  }  
 }
 
 /* 4-----------------------------------------page4----------------------------------------------------- */
